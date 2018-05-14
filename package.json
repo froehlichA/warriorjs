@@ -17,7 +17,8 @@
     "pretest": "yarn lint",
     "test": "jest",
     "test:coverage": "yarn test --coverage",
-    "test:watch": "yarn test --watch"
+    "test:watch": "yarn test --watch",
+    "verify": "yarn build && yarn bootstrap && yarn test"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
